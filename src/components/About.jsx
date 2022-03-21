@@ -20,8 +20,9 @@ const About = () => {
               <p className='text-lg'> Like I mentioned earlier, i am a self taught programmer and my journey hasn't been that long. However, with patience and ability to learn things quickly, I am already able to build amazing projects. I am passionate about building excellent software that improves
               the lives of those around me. I want to specialize in creating software
               for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. All, I am expecting at the moment is a yes from you to work in your team. What would you do if you had
-              a software expert available at your fingertips?</p>  
+              way to large enterprise corporations. All, I am expecting at the moment is a yes from you to work in your team. </p>  
+            
+            {/* //What would you do if you had a software expert available at your fingertips?// */}
             </div>
           </div>
       </div>
