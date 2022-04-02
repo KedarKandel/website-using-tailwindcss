@@ -4,6 +4,8 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo111.png";
 import { Link } from "react-scroll";
+// import { saveAs } from "file-saver";
+import TodoImg from "../assets/todo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -23,6 +25,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className="hover:text-pink-600"
+            activeClass="active"
           >
             Home
           </Link>
@@ -33,6 +36,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className="hover:text-pink-600"
+            activeClass="active"
           >
             About
           </Link>
@@ -43,6 +47,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className="hover:text-pink-600"
+            activeClass="active"
           >
             Skills
           </Link>
@@ -53,6 +58,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className="hover:text-pink-600"
+            activeClass="active"
           >
             Work
           </Link>
@@ -63,6 +69,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className="hover:text-pink-600"
+            activeClass="active"
           >
             Contact
           </Link>
@@ -83,27 +90,57 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="home"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+          >
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="about"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+          >
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="skills"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+          >
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="work"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+          >
             Work
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="contact"
+            smooth={true}
+            duration={500}
+            activeClass="active"
+          >
             Contact
           </Link>
         </li>
@@ -142,8 +179,10 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
+              href="../assets/cirriculumvitae.pdf"
+              title="hero"
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              download
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

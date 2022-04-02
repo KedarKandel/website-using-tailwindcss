@@ -17,7 +17,7 @@ const About = () => {
               <p>Hi. I'm Kedar, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p className='text-lg'> Like I mentioned earlier, i am a self taught programmer and my journey hasn't been that long. However, with patience and ability to learn things quickly, I am already able to build amazing projects. I am passionate about building excellent software that improves
+              <p className='text-lg'> Like I mentioned earlier, i am a self taught programmer and my journey hasn't been that long. However, with  the ability to learn things quickly, I am already able to build amazing projects. I have already grasped the complex concepts like redux, react-redux, typescript, docker and so on . And i can now comfortably work on a Mern-project. I am passionate about building excellent software that improves
               the lives of those around me. I want to specialize in creating software
               for clients ranging from individuals and small-businesses all the
               way to large enterprise corporations. All, I am expecting at the moment is a yes from you to work in your team. </p>  
