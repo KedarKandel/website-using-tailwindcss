@@ -32,7 +32,11 @@ const Work = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://cheerful-torte-cb211d.netlify.app/">
+                <a
+                  href="https://cheerful-torte-cb211d.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -122,7 +126,11 @@ const Work = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://kedarmakepins.herokuapp.com/">
+                <a
+                  href="https://kedarmakepins.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
