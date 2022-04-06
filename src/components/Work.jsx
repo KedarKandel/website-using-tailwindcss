@@ -4,6 +4,7 @@ import TodoImg from "../assets/todo.png";
 import realEstate from "../assets/realestate.jpg";
 import PortfolioImg from "../assets/portfolioImg.png";
 import CalcImg from "../assets/calcImg.png";
+import Pinimg from "../assets/travelpin1.png";
 // import expandApplyAtRules from "tailwindcss/lib/lib/expandApplyAtRules";
 
 const Work = () => {
@@ -112,7 +113,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${Pinimg})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -173,7 +174,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                React JS Application(coming soon)
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
