@@ -1,7 +1,7 @@
 import React from "react";
 import weatherImg from "../assets/weather-app.png";
 import TodoImg from "../assets/todo.png";
-import realEstate from "../assets/realestate.jpg";
+import ecommerce from "../assets/ecommerce.png";
 import PortfolioImg from "../assets/portfolioImg.png";
 import CalcImg from "../assets/calcImg.png";
 import Pinimg from "../assets/travelpin1.png";
@@ -180,7 +180,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${ecommerce})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
