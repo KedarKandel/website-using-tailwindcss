@@ -61,7 +61,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Calculator App
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -92,7 +92,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Weather App
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -123,7 +123,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Full-stack Application
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -155,7 +155,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Todo  Application
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -185,6 +185,10 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
+            <span className="text-2xl font-bold text-white tracking-wider">
+              Full-stack App
+              </span>
+              <br></br>
               <span className="text-2xl font-bold text-white tracking-wider">
                 Coming soon
               </span>
