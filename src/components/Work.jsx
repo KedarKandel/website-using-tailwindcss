@@ -180,7 +180,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${ecommerce})` }}
+            style={{ backgroundImage: `url(${ecommerce})`, backgroundSize:"cover"}}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
