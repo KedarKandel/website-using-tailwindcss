@@ -33,9 +33,8 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://cheerful-torte-cb211d.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
+                  href="/"
+               
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -198,7 +197,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/KedarKandel/E-Shop">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
